@@ -10,6 +10,10 @@ class Author(models.Model):
     dob = models.DateTimeField('date published')
 
 
+class Topic(models.Model):
+    name = models.CharField(max_length=60)
+
+    
 class Quote(models.Model):
     quote_text = models.CharField(max_length=200)
     authored_date = models.DateTimeField('date published')
@@ -18,5 +22,3 @@ class Quote(models.Model):
     topic = models.ForeignKey(Topic, on_delete=models.CASCADE)
 
 
-class Topic(models.Model):
-    name = models.CharField(max_length=60)
