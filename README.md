@@ -31,6 +31,20 @@
 
 ```
 
+# List of dependencies
+
+- NLTK + TextBlob - natural language processing (ML for extacting quotes)
+- PyOCR - reading books from which to extract quotes
+- Scapy - for scrapping web sources (blogs, websites)
+
+# Currently installed this
+- Elasticsearch - search engine
+- Django - web framework
+- Django Rest Framework - restful api
+
+# Considering 
+- Eve - rest config, security, auth, redis, elasticsearch, mongodb (built in)
+
 A barebones Python app, which can easily be deployed to Heroku.
 
 This application supports the [Getting Started with Python on Heroku](https://devcenter.heroku.com/articles/getting-started-with-python) article - check it out.
