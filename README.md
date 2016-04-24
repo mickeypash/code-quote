@@ -36,6 +36,7 @@
 - NLTK + TextBlob - natural language processing (ML for extacting quotes)
 - PyOCR - reading books from which to extract quotes
 - Scapy - for scrapping web sources (blogs, websites)
+- Pattern - for web mining (Google, Twitter, Wiki API)
 
 # Currently installed this
 - Elasticsearch - search engine
